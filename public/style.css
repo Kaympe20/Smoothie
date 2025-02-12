@@ -10,3 +10,35 @@ body {
     font-family: Carter One;
     font-size: 1.25em;
 }
+
+.blender {
+    position: absolute;
+    right: 0;
+    min-width: fit-content;
+    
+}
+
+.blender img {
+    min-width: 200px;
+    width: 30vw;
+}
+
+.blender div {
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    width: 50px; 
+    height: 0;
+    background-color: #f09029;
+    animation: pour 2s linear forwards;
+    z-index: -1;
+}
+
+@keyframes pour {
+    from {
+        height: 0;
+    }
+    to {
+        height: calc(100vh - 250px);
+    }
+}
