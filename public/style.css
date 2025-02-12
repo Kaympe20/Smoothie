@@ -26,13 +26,14 @@ body {
 
 .blender img {
     min-width: 200px;
-    width: 30vw;
+    width: 20vw;
+    max-height: 30vh;
 }
 
 .blender div {
     position: absolute;
-    top: 250px;
-    right: 200px;
+    top: 15vh;
+    right: 12vw;
     width: 50px; 
     height: 0;
     background-color: #f09029;
@@ -46,7 +47,7 @@ body {
         height: 0;
     }
     to {
-        height: calc(100vh - 250px);
+        height: calc(100vh - 50px);
     }
 }
 
@@ -64,6 +65,7 @@ body {
     padding: 2%;
     border-radius: 2em;
     line-height: 150%;
+    width: 80%;
 }
 
 .landing a {
