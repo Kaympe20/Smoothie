@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background: rgba(231, 212, 202, 0.5) url("./images/beautiful-aerial-shot-modern-city-architecture-with-illuminated-tower-side.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    text-align: center;
+    color: #6d412a;
+    font-family: Carter One;
+    font-size: 1.25em;
+}
